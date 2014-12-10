@@ -1,0 +1,24 @@
+﻿<Addin name        = "Simple Android Project Template"
+       id          = "Test.SimpleAndroidProjectTemplate"
+       namespace   = "MonoDevelop"
+       author      = "Matt Ward"
+       copyright   = "MIT"
+       url         = "https://github.com/mrward"
+       description = "Test addin"
+       category    = "IDE extensions"
+       version     = "0.1">
+	
+	<Runtime>
+		<Import file="ProjectTemplate.xpt.xml" />
+	</Runtime>
+
+	<Dependencies>
+		<Addin id="Core" version="5.0"/>
+		<Addin id="Ide" version="5.0"/>
+	</Dependencies>
+	
+	<Extension path="/MonoDevelop/Ide/ProjectTemplates">
+		<ProjectTemplate id="SimpleAndroidProjectTemplateAddin-Project" file="ProjectTemplate.xpt.xml" />
+	</Extension>
+
+</Addin>
