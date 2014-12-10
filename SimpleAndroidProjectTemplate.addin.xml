@@ -21,4 +21,11 @@
 		<ProjectTemplate id="SimpleAndroidProjectTemplateAddin-Project" file="ProjectTemplate.xpt.xml" />
 	</Extension>
 
+	<Extension path="/MonoDevelop/Ide/ProjectTemplateCategories">
+		<Category id="test" name="Test" icon="md-platform-cross-platform" insertafter="other">
+			<Category id="android" name="Android">
+				<Category id="general" name="General" />
+			</Category>
+		</Category>
+	</Extension>
 </Addin>

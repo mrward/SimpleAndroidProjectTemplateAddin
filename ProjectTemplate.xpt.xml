@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <Template>
 	<TemplateConfiguration>
-		<_Name>Android Application</_Name>
+		<_Name>Test Empty Android App</_Name>
 		<_Category>Simple Android Project Template Test</_Category>
+		<Category>test/android/general</Category>
 		<Icon>monodroid-project</Icon>
 		<LanguageName>C#</LanguageName>
-		<_Description>Creates an Android Application with an Activity.</_Description>
+		<_Description>Creates an Android Application without an AndroidManifest.xml file which will be created by Xamarin Studio on loading the project.</_Description>
 	</TemplateConfiguration>
 	
 	<Combine name = "${ProjectName}" directory = ".">
