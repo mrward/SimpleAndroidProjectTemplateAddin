@@ -6,10 +6,19 @@
        url         = "https://github.com/mrward"
        description = "Test addin"
        category    = "IDE extensions"
-       version     = "0.1">
+       version     = "0.2">
 	
 	<Runtime>
 		<Import file="ProjectTemplate.xpt.xml" />
+		<Import file = "MonoDroidApplication/AboutAssets.txt" />
+		<Import file = "MonoDroidApplication/AboutResources.txt" />
+		<Import file = "MonoDroidApplication/MainActivity.cs" />
+		<Import file = "MonoDroidApplication/AssemblyInfo.cs" />
+		<Import file = "MonoDroidApplication/Icon-hd.png" />
+		<Import file = "MonoDroidApplication/Icon-ld.png" />
+		<Import file = "MonoDroidApplication/Icon-md.png" />
+		<Import file = "MonoDroidApplication/Main.axml" />
+		<Import file = "MonoDroidApplication/Resource.cs" />
 	</Runtime>
 
 	<Dependencies>
